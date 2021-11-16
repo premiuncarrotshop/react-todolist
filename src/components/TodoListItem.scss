@@ -1,3 +1,8 @@
+.TodoListItem-virtualized {
+  & + & {
+    border-top: 1px solid #dee2e6;
+  }
+}
 .TodoListItem {
   height: 67.59px;
   display: flex;
@@ -44,8 +49,5 @@
     &:hover {
       color: #ff8787;
     }
-  }
-  & + & {
-    border-top: 1px solid #dee2e6;
-  }
+  }  
 }
